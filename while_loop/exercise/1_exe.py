@@ -5,3 +5,5 @@ while numbers:
     print(f"|{last_number}|", end='')  # result: |9||8||7||6||5||4||3||2||1|
 
     numbers //= 10  # remove last digit
+
+    
