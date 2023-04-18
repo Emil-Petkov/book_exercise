@@ -1,8 +1,10 @@
-# colors = ["White", "Green", "Red"]
-#
-# for el in colors:
-#     print(el, end=" ")  # White Green Red
-#
+from colorama import Fore
+
+colors = [Fore.WHITE + "White", Fore.GREEN + "Green", Fore.RED + "Red"]
+
+for el in colors:
+    print(el, end=" ")  # White Green Red
+
 # ########################################################################
 #
 # for s in colors:
